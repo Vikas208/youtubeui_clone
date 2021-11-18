@@ -1,0 +1,33 @@
+.videoinfo {
+  display: flex;
+  padding: 10px 0px;
+  font-family: Roboto, Arial, sans-serif;
+}
+.videocard > img {
+  width: 253px;
+  height: 143px;
+}
+.videocard {
+  width: 253px;
+  height: 100%;
+  /* border: 2px solid black; */
+  padding: 10px;
+}
+.info {
+  margin-left: 10px;
+}
+.info > p {
+  font-size: 14px;
+  font-weight: 500;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+.video_views_time {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 450;
+}
+.timestamp {
+  margin-left: 10px;
+}

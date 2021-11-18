@@ -1,0 +1,23 @@
+.sidebar {
+  flex: 0.2;
+  /* border: 2px solid black; */
+  position: sticky;
+  /* left: 0; */
+  left: 0;
+  top: 80px;
+  align-self: flex-start;
+  z-index: 100;
+}
+.sidebar > hr {
+  height: 1px;
+  border: 0;
+  background-color: lightgray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.sidebar > p {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px;
+  color: gray;
+}

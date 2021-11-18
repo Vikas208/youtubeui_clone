@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import Header from "./Header";
+import RecommendedVideo from "./RecommendedVideo";
+import SideBar from "./SideBar";
+import Categories from "./Categories";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+
+      <div className="app_page">
+        <SideBar />
+        <div className="category">
+          <hr />
+          <div className="type">
+            <Categories selected title="All" />
+            <Categories title="Computer programming" />
+            <Categories title="website" />
+            <Categories title="Computers" />
+            <Categories title="Cryptocurrency" />
+            <Categories title="Job interviews" />
+            <Categories title="Comedies" />
+            <Categories title="Viral Videos" />
+          </div>
+          <hr />
+          <RecommendedVideo />
+        </div>
+      </div>
     </div>
   );
 }

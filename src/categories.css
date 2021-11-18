@@ -1,0 +1,15 @@
+.categories > p {
+  border: 1px solid #acabab;
+  border-radius: 15px;
+  padding: 5px 10px;
+  color: rgb(70, 70, 70);
+  white-space: nowrap;
+}
+.categories {
+  padding: 3px;
+  cursor: pointer;
+}
+.select > p {
+  color: black;
+  background-color: #acabab;
+}

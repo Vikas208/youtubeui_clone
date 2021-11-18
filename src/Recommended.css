@@ -1,0 +1,7 @@
+.videos {
+  display: flex;
+  overflow-x: hidden;
+  flex-wrap: wrap;
+  padding: 10px 20px;
+  align-items: center;
+}

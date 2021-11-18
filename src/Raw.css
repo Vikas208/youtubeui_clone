@@ -1,0 +1,33 @@
+.raw {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+.icon {
+  color: gray;
+  font-size: larger !important;
+}
+.title {
+  flex: 1;
+  margin-left: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.raw:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+.raw:hover .icon {
+  color: red;
+}
+.raw:hover .title {
+  font-weight: bold;
+}
+.selected {
+  background-color: lightgray;
+}
+.selected > .icon {
+  color: red;
+}
